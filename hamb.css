@@ -1,0 +1,78 @@
+.hamb
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 25px;
+    margin: 10px;
+    z-index: 1;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+}
+
+.hamb div
+{
+    background-color: #212;
+    width: 100%;
+    height: 4px;
+    margin-top: 5px;
+
+    transition: .3s ease-in-out;
+}
+
+.hamb1
+{
+    transform: rotateZ(45deg);
+    transform: rotateZ(45deg) translate(5px, 5px);
+}
+
+.hamb2
+{
+    transform: rotateZ(45deg) translate(-1px, -1px);
+}
+
+.hamb3
+{
+    transform: rotateZ(-45deg) translate(6.5px, -6px);
+}
+
+.sidebar
+{
+    left: -100%;
+    transition: left .3s ease-in-out;
+    width: 200px;
+    min-height: 100vh;
+    background-color: #ddd;
+    padding-top: 70px;
+    position: absolute;
+}
+
+.sidebar li
+{
+    width: 100%;
+    /* height: 50px; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    list-style-type: none;
+    transition: .3s ease-in-out;
+}
+
+.sidebar li:hover
+{
+    background-color: #ccc;
+}
+
+.sidebar li a
+{
+    text-decoration: none;
+    color: #212;
+    padding: 20px 0px;
+}
