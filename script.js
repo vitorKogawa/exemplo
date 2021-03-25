@@ -13,6 +13,7 @@ const comandosArray = [
 const equipeArray = [
   'Felipe G. Belarmino',
   'Paloma Santana',
+  'Natasha',
   'Felipe Nunes',
   'Catia Y',
   'Niolle',
